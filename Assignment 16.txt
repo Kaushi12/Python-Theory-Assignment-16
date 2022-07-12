@@ -1,0 +1,27 @@
+1) years_list = [i for i in range(1997,1997+6)]
+years_list
+2) years_list[3]
+3) max(years_list)
+4) things = list(['mozzarella', 'cinderella','salmonella'])
+things
+5) for i in things:
+    print(i.capitalize())
+things
+6) surprise_list = ["Groucho", "Chico", "Harpo"]
+surprise_list
+7) surprise_list[-1].lower()
+8) surprise_list[-1][::-1]
+9) surprise_list[-1][::-1].upper()
+10) e2f = {'dog':'chien','cat':'chat','walrus':'morse'}
+11) e2f['walrus']
+12) f2e = dict((key,value) for value,key in e2f.items())
+f2e
+13) f2e['chien']
+14) e2f.keys()
+15) life ={'animals':{'cat':['Henri', 'Grumpy', 'Lucy'], 'octopi':'', 'emus':''},
+       'plants' :'',
+       'other' :'' }
+life
+16) life.keys()
+17) life['animals'].keys()
+18) life['animals']['cat']
